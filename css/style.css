@@ -1,0 +1,93 @@
+body {
+    overflow: hidden;
+}
+
+#mii {
+    float: left;
+    border: 2px solid #0ab7e0;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+#controls {
+    width: 600px;
+    float: left;
+}
+
+#tools {
+    padding: 5px;
+    float: left;
+}
+
+.parts {
+    float: left;
+    border-radius: 25px;
+    border: 3px solid grey;
+}
+
+.head, .features, .beards {
+    margin: -10px;
+    transform: scale(0.8);
+}
+
+.hair {
+    margin: -10px;
+    transform: scale(0.8);
+}
+
+.lips, .eyebrows,.mustache { margin: 3px;}
+
+.glasses {
+    margin: -5px;
+    transform: scale(0.8);
+    background-color: #bdcbd6;
+}
+
+.color {
+    float: left;
+    margin: 2px;
+    border-radius: 25px;
+    border: 3px solid grey;
+    width: 50px;
+    height: 50px;
+}
+
+input[type=color] {
+    margin: 2px;
+    border-radius: 25px;
+    border: 3px solid grey;
+    width: 35px;
+    height: 35px;
+}
+
+.left, .right {
+    font-size: 2em;
+    width: 90px;
+    margin: 5px 0px;
+}
+
+.left {
+     border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-right: 0px;
+}
+
+.right {
+     border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-left: 0px;
+}
+
+.ui-tabs-vertical { width: 100%; padding-right: 0px; }
+.ui-tabs-vertical .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 10em; }
+.ui-tabs-vertical .ui-tabs-nav li { clear: left; width: 100%; border-bottom-width: 1px !important; border-right-width: 0 !important; margin: 0 -1px .2em 0; }
+.ui-tabs-vertical .ui-tabs-nav li a { display:block; width: 85%; }
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0; padding-right: .1em; border-right-width: 1px; }
+.ui-tabs-vertical .ui-tabs-panel { 
+    padding: 1em;
+    padding-right: 0px;
+    float: left; 
+    width: 64%;
+    height: 500px;
+    overflow-y: scroll
+}
